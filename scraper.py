@@ -7,7 +7,7 @@ url = "https://data.police.uk/api/forces"
 
 #fetch the json from the URL
 response = urllib.urlopen(url)
-#load it into variable called x
+#load it into variable called data
 data = json.loads(response.read())
 #let's see what we have
 print data
